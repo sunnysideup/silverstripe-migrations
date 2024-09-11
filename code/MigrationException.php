@@ -1,6 +1,6 @@
 <?php
 
-namespace PattricNelson\SilverStripeMigrations;
+namespace PatricNelson\SilverStripeMigrations;
 
 use Exception;
 
