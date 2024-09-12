@@ -1,6 +1,6 @@
 <?php
 
-namespace PatricNelson\SilverStripeMigrations;
+namespace PatrickNelson\SilverStripeMigrations;
 
 use SilverStripe\ORM\DataObject;
 

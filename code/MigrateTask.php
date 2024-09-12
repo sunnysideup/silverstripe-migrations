@@ -1,11 +1,11 @@
 <?php
 
-namespace PatricNelson\SilverStripeMigrations;
+namespace PatrickNelson\SilverStripeMigrations;
 
 use Exception;
 
-use PatricNelson\SilverStripeMigrations\Migration;
-use PatricNelson\SilverStripeMigrations\MigrationBoilerplate;
+use PatrickNelson\SilverStripeMigrations\Migration;
+use PatrickNelson\SilverStripeMigrations\MigrationBoilerplate;
 use ReflectionClass;
 use SilverStripe\Control\Director;
 use SilverStripe\Control\HTTPRequest;
