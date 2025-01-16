@@ -1,5 +1,7 @@
 <?php
 
+namespace PatrickNelson\SilverStripeMigrations;
+
 class MigrationBoilerplate extends Migration {
 
     /**
