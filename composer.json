@@ -1,34 +1,39 @@
 {
-    "name": "patricknelson/silverstripe-migrations",
-    "description": "SilverStripe Database Migration module. Facilitates atomic database migrations in SilverStripe 3.x",
-    "type": "silverstripe-vendormodule",
-    "homepage": "https://github.com/patricknelson/silverstripe-migrations",
-    "keywords": [
-        "silverstripe","database migrations","migrate"
-    ],
-    "license": "MIT",
-    "authors": [
-        {"name": "Patrick Nelson","email": "pat@catchyour.com"}
-    ],
-    "support": {
-        "issues": "https://github.com/patricknelson/silverstripe-migrations/issues"
-    },
-    "autoload": {
-        "psr-4": { 
-            "PatrickNelson\\SilverStripeMigrations\\": "code/",
-            "PatrickNelson\\SilverStripeMigrations\\Tests\\": "tests/"
-        }
-    },
-    "require": {
-        "silverstripe/cms": "^4.9.0"
-    },
-    "require-dev": {
-        "sminnee/phpunit": "^5.7.29"
-    },
-    "config": {
-        "allow-plugins": {
-            "composer/installers": true,
-            "silverstripe/vendor-plugin": true
-        }
+  "name": "patricknelson/silverstripe-migrations",
+  "description": "SilverStripe Database Migration module. Facilitates atomic database migrations in SilverStripe 3.x",
+  "type": "silverstripe-vendormodule",
+  "homepage": "https://github.com/patricknelson/silverstripe-migrations",
+  "keywords": [
+    "silverstripe",
+    "database migrations",
+    "migrate"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Patrick Nelson",
+      "email": "pat@catchyour.com"
     }
+  ],
+  "support": {
+    "issues": "https://github.com/patricknelson/silverstripe-migrations/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "PatrickNelson\\SilverStripeMigrations\\": "code/",
+      "PatrickNelson\\SilverStripeMigrations\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "silverstripe/cms": "^4.9.0"
+  },
+  "require-dev": {
+    "sminnee/phpunit": "^5.7.29"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true,
+      "silverstripe/vendor-plugin": true
+    }
+  }
 }
